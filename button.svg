@@ -1,0 +1,66 @@
+<svg width="480" height="92" viewBox="0 0 480 92" fill="none" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title desc" role="img">
+  <title id="title">Download Ryujinx Emulator Button</title>
+  <desc id="desc">Premium cyber-tech download button for Ryujinx Emulator</desc>
+  
+  <!-- Main button background with glassmorphism + dark gradient -->
+  <rect x="8" y="8" width="464" height="76" rx="16" fill="url(#bgGradient)" stroke="url(#borderGlow)" stroke-width="3"/>
+  
+  <!-- Subtle inner highlight / top shimmer -->
+  <rect x="11" y="11" width="458" height="12" rx="12" fill="white" fill-opacity="0.08"/>
+  
+  <!-- Left icon area background -->
+  <rect x="28" y="22" width="62" height="48" rx="10" fill="#0a1421" fill-opacity="0.6"/>
+  
+  <!-- Ryujinx Emulator Icon (Stylized Nintendo Switch + Cyber Glow) -->
+  <!-- Switch body -->
+  <rect x="35" y="29" width="48" height="32" rx="6" fill="#1a2538" stroke="#39ff88" stroke-width="2"/>
+  <!-- Left Joy-Con -->
+  <rect x="37" y="31" width="12" height="28" rx="4" fill="#00d4ff" fill-opacity="0.9"/>
+  <!-- Right Joy-Con -->
+  <rect x="67" y="31" width="12" height="28" rx="4" fill="#39ff88" fill-opacity="0.9"/>
+  <!-- Screen -->
+  <rect x="43" y="35" width="30" height="20" rx="2" fill="#0f1c2e"/>
+  <!-- Screen glow -->
+  <rect x="44" y="36" width="28" height="18" rx="1" fill="#39ff88" fill-opacity="0.15"/>
+  <!-- Small neon details -->
+  <circle cx="40" cy="38" r="2" fill="#39ff88"/>
+  <circle cx="76" cy="42" r="2" fill="#00d4ff"/>
+  
+  <!-- Neon glowing border effect -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#112233"/>
+      <stop offset="100%" stop-color="#0a1421"/>
+    </linearGradient>
+    <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#39ff88"/>
+      <stop offset="50%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#39ff88"/>
+    </linearGradient>
+  </defs>
+
+  <!-- TOP LABEL -->
+  <text x="112" y="32" font-family="system-ui, Arial" font-size="11" font-weight="700" letter-spacing="1.5px" fill="#a0f0c8" text-transform="uppercase">NINTENDO SWITCH</text>
+  <text x="112" y="45" font-family="system-ui, Arial" font-size="11" font-weight="700" letter-spacing="2px" fill="#39ff88" text-transform="uppercase">EMULATOR</text>
+
+  <!-- MAIN TEXT -->
+  <text x="112" y="66" font-family="system-ui, Arial Black, sans-serif" font-size="23" font-weight="900" fill="#ffffff" letter-spacing="-0.5px">Download Ryujinx</text>
+
+  <!-- RIGHT SIDE: Neon Download Icon + Arrow -->
+  <g transform="translate(390 28)">
+    <!-- Download icon circle -->
+    <circle cx="38" cy="24" r="22" fill="none" stroke="#39ff88" stroke-width="3" stroke-opacity="0.25"/>
+    <circle cx="38" cy="24" r="19" fill="none" stroke="#39ff88" stroke-width="2.5"/>
+    
+    <!-- Arrow -->
+    <path d="M38 14 L38 34" stroke="#39ff88" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M30 27 L38 35 L46 27" stroke="#39ff88" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Subtle outer glow ring -->
+    <circle cx="38" cy="24" r="28" fill="none" stroke="#00d4ff" stroke-width="2" stroke-opacity="0.15"/>
+  </g>
+
+  <!-- Soft outer glow (multiple layers for depth) -->
+  <rect x="8" y="8" width="464" height="76" rx="16" fill="none" stroke="#39ff88" stroke-width="8" stroke-opacity="0.08"/>
+  <rect x="8" y="8" width="464" height="76" rx="16" fill="none" stroke="#00d4ff" stroke-width="12" stroke-opacity="0.05"/>
+</svg>
